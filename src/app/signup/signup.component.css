@@ -1,0 +1,82 @@
+.fullpage {
+  margin: 30px;
+}
+
+mat-card {
+  height: 83.1vh;
+  background-color: #5453a4;
+}
+
+.formfields {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 83.1vh;
+}
+
+form {
+  width: 460px;
+}
+
+mat-card-title {
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  font: 500 32px Roboto;
+}
+
+mat-card-subtitle {
+  color: #b8b8db;
+  text-align: center;
+  width: 100%;
+  font: 400 14px Roboto;
+}
+
+input {
+  color: #ffffff;
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.email {
+  width: 100%;
+}
+
+.password {
+  width: 100%;
+}
+
+mat-list {
+  padding: 0%;
+  text-align: center;
+}
+
+mat-checkbox {
+  color: #ffffff;
+  font: 400 16px Roboto;
+  border-radius: 5px;
+}
+
+.mat-input-element {
+  background-color: #302f74;
+}
+
+#fgtpwd {
+  color: #34ccc6;
+  font: 400 16px Roboto;
+}
+
+button {
+  color: #ffffff;
+  width: 100%;
+  background: linear-gradient(to right, #34ccc6, #92e2f9);
+  border-radius: 5px;
+}
+
+#account {
+  width: 100%;
+  text-align: center;
+  color: #b8b8db;
+  font: 500 16px Roboto;
+}

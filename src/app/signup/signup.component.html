@@ -1,0 +1,38 @@
+<div class="fullpage">
+    <mat-card>
+        <div class="formfields">
+            <form [formGroup]="userForm" (ngSubmit)="onSubmit()" novalidate>
+                <mat-list>
+                    <mat-list-item>
+                        <mat-card-title>Sign In</mat-card-title>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <mat-card-subtitle>Hello! Sign in with your username or email</mat-card-subtitle>
+                    </mat-list-item>
+                    <mat-list-item class="email">
+                        <mat-form-field class="email">
+                            <input matInput placeholder="Email ID | Username" formControlName="email">
+                        </mat-form-field>
+                    </mat-list-item>
+                    <mat-list-item class="password">
+                        <mat-form-field class="password">
+                            <input matInput placeholder="Password" type="password"  formControlName="password">
+                        </mat-form-field>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <mat-checkbox>Remember me</mat-checkbox>
+                        <div id="fgtpwd">Forgot Password?</div>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <button mat-button>SIGN IN </button>
+                    </mat-list-item>
+                <mat-list-item>
+                </mat-list-item>
+                <mat-list-item >
+                    <p id="account">Don't have an account? Sign Up</p>
+                    </mat-list-item>
+                </mat-list>
+            </form>
+        </div>
+    </mat-card>
+</div>

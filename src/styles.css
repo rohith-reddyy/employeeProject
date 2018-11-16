@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body{
+    margin: 0%;
+    background-color: #302F74;
+    width: 100%;
+    height: 100%;
+}
+.mat-form-field-underline {
+    display: none;
+ }
+ .mat-list-item-content{
+    justify-content:space-between;
+}
+.mat-form-field-label{
+    color: #8787AC;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.mat-form-field{
+    font: 400 12px Roboto;
+}
